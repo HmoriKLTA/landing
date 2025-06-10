@@ -6,15 +6,15 @@
 
 /* Components */
 @import url("components/banner.css");
+@import url("components/footer.css");
+@import url("components/cards.css");
 
 /* Utilities */
 body {
   margin: 0;
   font-family: Open Sans;
-}
+  background: #F4F4F4;
 
-h1, h2, h3, h4 {
-  font-family: Poppins;
 }
 
 a {
@@ -32,9 +32,14 @@ a {
   color:red;
 }
 
-.list-inline {
-  list-style: none;
-  padding: 0;
-  display: flex;
-  justify-content: space-around;
+h2 {
+  text-align: center;
+}
+
+.info-text {
+  padding: 25px 50px 50px 25px;
+  margin: 25px 100px 25px 100px;
+  border: 1px solid rgba(0,0,0,1);
+  border-radius: 5px;
+  box-shadow: black 10px 10px 10px rgba(0,0,0,1);
 }
